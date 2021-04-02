@@ -56,7 +56,7 @@ del sys
 URL = "https://unicode.org/Public/emoji/13.1/emoji-test.txt"
 
 # Directory location for cached downloaded codes
-DIRECTORY = os.path.join(os.path.expanduser("~"), ".demoji")
+DIRECTORY = "/models" #os.path.join(os.path.expanduser("~"), ".demoji")
 
 # Filepath of the cached downloaded codes
 CACHEPATH = os.path.join(DIRECTORY, "codes.json")
